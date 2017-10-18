@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+    
+<hibernate-configuration>
+    <session-factory>        
+        <mapping class="com.shubham.model.Student" />
+        <mapping class="com.shubham.model.SmsServiceUser" />
+        <mapping class="com.shubham.model.Location" />
+        <mapping class="com.shubham.model.ToDoList" />
+        <mapping class="com.shubham.model.ListItems" />
+        <mapping class="com.shubham.model.Blog" />
+    </session-factory>         
+</hibernate-configuration>

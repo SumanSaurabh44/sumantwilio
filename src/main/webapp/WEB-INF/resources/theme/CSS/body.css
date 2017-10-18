@@ -1,0 +1,144 @@
+::-webkit-scrollbar {
+    width: 0em;
+    height: 0em
+}
+::-webkit-scrollbar-button {
+    background: #ccc
+}
+::-webkit-scrollbar-track-piece {
+    background: #888
+}
+::-webkit-scrollbar-thumb {
+    background: #eee
+}#bodycontent{overflow:scroll; height: 100%;}
+.parallax {
+    /* The image used */
+	background: url(http://comverge.com.au/wp-content/uploads/Parallax-background.jpg) no-repeat;
+    /* Full height */
+    height: 30%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    text-align: center;
+    padding: 12% 0% 0% 0%;
+}
+.animate {
+  height: 100px;
+  width: 100px;
+  background-color: #c00;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  left: 90%;
+}
+
+.animate.move {
+  left: 100%;
+  margin-left: -100px; /*.animate width*/
+}
+.parallax1 {
+    /* The image used */
+	background: url(http://rnbtheme.com/shortcodes/wp-content/uploads/2016/02/Katac.jpg) no-repeat;
+    /* Full height */
+    height: 10%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+	font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding: 4%;
+}
+.footerparallax {
+    /* The image used */
+	background: url(http://flirtkin.com/assets/p3-f751559907c6cabd400d1bf0bf83602c2a7333f535a33b48211ca103952fd453.jpg) no-repeat;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 4%;
+}
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 0ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+		
+.done-true {
+	text-decoration: line-through;
+	color: grey;
+}

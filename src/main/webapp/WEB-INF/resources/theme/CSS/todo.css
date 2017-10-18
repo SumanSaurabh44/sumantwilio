@@ -1,0 +1,47 @@
+.container{
+	padding: 3%;
+}
+.errmsg{ color: red; }
+#topForList{font-family: 'Gruppo', cursive;
+font-size: 2em;}
+#itemsScroll{overflow-y: scroll; height:200px; color: #f4511e; background-color: white;}
+#todolistheading{padding: 3%; background-color: white; color: #673AB7;}
+#removeitem{color: red; cursor: pointer;}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 1%;
+  width: 100px;
+  transition: all 0.5s;
+   cursor:cell;
+  margin: 5px;
+}
+
+.button span {
+   cursor:cell;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

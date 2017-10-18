@@ -1,0 +1,73 @@
+body{
+background-color: white;
+  min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.headingdis{    font-weight: bold; color: #3B2F63;
+ }
+#container{ 
+	font-family: 'Bree Serif', serif;
+    background: #efefef;
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    min-height: 450px;
+	box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+    
+    }
+    input[type="text"] {
+	padding: 1% 6% 1% 2%;
+	outline: none;
+	 border-radius: 25px;
+	}
+input[type="text"]:focus {
+    border-bottom: 3px solid #3B2F63;
+        background: #fcfcfc;
+        color: #3B2F63;
+}
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+     background-color: white;
+    color: black;
+    border: 2px solid #3B2F63;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #3B2F63;
+    color: white;
+}
+.twilio2head{ font-size: 2em;}
+#twilio2dis{padding: 2%;text-align: left; color: #756d91; background-color: #f7f7f7; overflow-y: scroll; height:80px; font-size: 0.7em;
+font-family: 'Montserrat', sans-serif;
+
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+    margin: 25px;
+}
+.phoneMarker{ font-weight: bold; color: #0b2536}
+td{ line-height: 170%;	font-family: 'Lato', sans-serif; color: #1A237E; }
